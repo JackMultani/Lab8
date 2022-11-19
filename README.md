@@ -1,4 +1,6 @@
 # Lab 8 - Starter
+Jack Multani
+
 **1) Where would you fit your automated tests in your Recipe project development pipeline? Select one of the following and explain why.**
    
    You would fit automated tests within a GitHub action because the pipeline within the GitHub action will run the tests and notify the user who is pushing code whether their code passes the automated tests. If the code does not pass the automated tests, the GitHub action will not push the code and will instead notify the user that some sort of automated test failed, ultimatley preventing faulty code from being pushed to a repository. 
